@@ -7,10 +7,15 @@ dans le repertoire du git :
 git status
 git diff : différences entre espace de travail et index
 git diff --cached : difference entre in dex et le depot
-git add fichier
+git add fichier //faut faire ca vant commit
 git commit (apres il demande un texte de description)
 git commit -a -> fait un "git add" automatiquement
 git commit -m "Message de commit..."
 revoir les commits : gitk
 git show-> affiche le dernier commit
 git log-> afficher tous les commits
+plus de détails avec : git log -p
+
+envoyer les commit vers le serveur distant : git push
+récupérer les commits depuis le serveur : git fetch
+git fetch + intégrer les modifications : git pull
