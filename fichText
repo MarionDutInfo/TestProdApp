@@ -1,2 +1,16 @@
 salut
 yo la miiif
+
+commandes : 
+dans le repertoire du git :
+
+git status
+git diff : différences entre espace de travail et index
+git diff --cached : difference entre in dex et le depot
+git add fichier
+git commit (apres il demande un texte de description)
+git commit -a -> fait un "git add" automatiquement
+git commit -m "Message de commit..."
+revoir les commits : gitk
+git show-> affiche le dernier commit
+git log-> afficher tous les commits
